@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-alexguerrero",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "stylelint rules according to Alex Guerrero's personal preference",
   "main": "index.js",
   "scripts": {
