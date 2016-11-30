@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-config-alexguerrero",
+  "version": "0.0.0",
+  "description": "stylelint rules according to Alex Guerrero's personal preference",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint; node test/test.js",
+    "lint": "eslint .",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerrero/stylelint-config-alexguerrero.git"
+  },
+  "author": {
+    "name": "Alex Guerrero",
+    "email": "hello@alexguerrero.es"
+  },
+  "license": "Unlicense",
+  "files": [
+    "*.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/guerrero/stylelint-config-alexguerrero/issues"
+  },
+  "homepage": "https://github.com/guerrero/stylelint-config-alexguerrero#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-alexguerrero": "^0.2.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "stylelint": "^7.6.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=7.6.0"
+  }
+}

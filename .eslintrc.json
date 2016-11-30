@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "extends": "alexguerrero",
+  "rules": {
+    "prefer-spread": "off",
+    "prefer-const": "off",
+    "no-var": "off"
+  }
+}
